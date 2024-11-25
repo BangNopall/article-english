@@ -1,0 +1,17 @@
+{
+  "name": "article-english",
+  "version": "1.0.0",
+  "description": "For final project english",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "Noxval",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "flowbite": "^2.5.2"
+  }
+}
