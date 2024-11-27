@@ -18,6 +18,7 @@
   <link rel="shortcut icon" href="images/ub.png" type="image/x-icon">
   <title>Final Project English Group One</title>
   <link rel="stylesheet" href="main.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" rel="stylesheet">
 </head>
 
 <body class="bg-secondary font-poppins relative">
@@ -133,13 +134,13 @@
   </section>
 
   <!-- team section -->
-  <section id="team" class="h-auto md:h-screen">
+  <section id="team" class="h-auto md:h-screen flex justify-center items-center">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-      <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+      <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16" data-aos="zoom-in-up">
         <h2 class="mb-4 text-4xl tracking-tight font-righteous font-extrabold text-tertiary">Our Team</h2>
         <p class="font-light text-gray-500 lg:mb-16 sm:text-lg">Explore all the article content we've developed</p>
       </div>
-      <div class="grid gap-4 mb-6 lg:mb-16 md:grid-cols-3">
+      <div class="grid gap-4 mb-6 lg:mb-16 md:grid-cols-3" data-aos="zoom-in-up">
         <div class="items-center bg-primary/10 border border-primary/10 drop-shadow-neon rounded-lg sm:flex p-2 w-full">
           <div class="relative w-full sm:w-[300px]">
             <img class="w-full block rounded-lg" src="images/foto-nopal.jpg" alt="nopal Avatar">
@@ -225,14 +226,16 @@
   <!-- article section -->
   <section id="article" class="h-auto sm:h-screen flex justify-center items-center">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-      <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+      <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16" data-aos="zoom-in-up">
         <h2 class="mb-4 text-4xl tracking-tight font-righteous font-extrabold text-tertiary">Our Article</h2>
       </div>
-      <div
+      <div data-aos="zoom-in-up"
         class="max-w-screen-lg text-gray-300 sm:text-lg bg-white/10 border border-white/10 p-4 rounded-lg shadow-neon">
-        <h2 class="mb-4 text-xl sm:text-3xl tracking-tight font-bold text-tertiary">Effectiveness of Using Ruang Guru as Learning
+        <h2 class="mb-4 text-xl sm:text-3xl tracking-tight font-bold text-tertiary">Effectiveness of Using Ruang Guru as
+          Learning
           Media on Student Understanding at Lessons</h2>
-        <p class="mb-4 text-sm sm:text-base font-normal">Ruang Guru, as an education technology platform in Indonesia, provides access to
+        <p class="mb-4 text-sm sm:text-base font-normal">Ruang Guru, as an education technology platform in Indonesia,
+          provides access to
           high-quality learning resources that support student interaction and engagement. With interactive features
           such as animated videos, quizzes, and learning materials that can be accessed at any time, Ruang Guru is
           designed to meet students' diverse learning needs. Our review results show that using Ruang Guru significantly
@@ -241,7 +244,8 @@
           attributed to the personalized learning approach and the platform's ability to create a dynamic learning
           environment. Overall, Ruang Guru proved to be effective as a classroom learning method, positively
           contributing to student understanding and creating a more engaging and interactive learning experience.</p>
-        <p class="mb-4 font-light text-sm sm:text-base"><span class="font-bold">Keyword :</span> Efectivity, Ruangguru, Learning Media</p>
+        <p class="mb-4 font-light text-sm sm:text-base"><span class="font-bold">Keyword :</span> Efectivity, Ruangguru,
+          Learning Media</p>
         <a href="article.html"
           class="inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500 dark:hover:text-blue-700">
           Learn more
@@ -263,7 +267,11 @@
       </p>
     </div>
   </footer>
+  <script type="module" src="node_modules/flowbite/dist/flowbite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
-<script type="module" src="node_modules/flowbite/dist/flowbite.min.js"></script>
 
 </html>
