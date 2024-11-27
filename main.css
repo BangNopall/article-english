@@ -13,12 +13,12 @@
 
 
 /* snow effect */
-
 .initial-snow {
+    z-index: -1;
 	font-size: 50px;
 	color: white;
-	position: absolute;
 	top: -5vh;
+    pointer-events: none;
 }
 
 @keyframes snowfall {
@@ -27,7 +27,7 @@
 	}
 
 	100% {
-		transform: translate3d(var(--left-end), 105vh, 0);
+		transform: translate3d(var(--left-end), 100vh, 0);
 	}
 }
 
