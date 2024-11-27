@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home{
+    background: url('../images/bg-home.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url('../fonts/Righteous-Regular.ttf');
+}
+@font-face {
+    font-family: 'timesnewroman';
+    src: url('../fonts/times-new-roman.ttf');
+}
